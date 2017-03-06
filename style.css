@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #00BFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+svg {
+  /*margin-top: 20px;*/
+  width: 700px;
+  height: 450px;
+  overflow: visible;
+}
+
+#header, #scores {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#header {
+  float: left;
+}
+
+#scores {
+  float: right;
+  width: 150px;
+}
+
+.container {
+  position: relative;
+  background: white;
+  padding: 20px 40px;
+  margin: 40px auto;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.player {
+  fill: #00BFFF;
+}
